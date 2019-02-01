@@ -1,0 +1,21 @@
+Debuger startet über den Parameter --debug
+
+------------Debugger Commandos--------------------------------------------------
+
+list command: list		Programm Memory command: programm	 	-> Listet die geladenen Anweisungen
+
+						global Variables command: globals 		-> Listet globale Variabeln der Global Memory auf 	
+
+						Stack command: stack 			 		-> Listet den Stack auf
+							inspect <Stackslot>							zeigt augewähltes Objekt.
+
+						pc command: pc 				 			-> liest den Programmcounter aus
+		
+
+Breakpoint command BreakP:	-> 			lässt einen Breakpoint sätzen bis zu welchem das Programm läuft 
+										und den Programmspeicher ausliest									
+
+step command step:			->			lässt das Programm einen schritt ablaufen und den Programmspeicher
+										auflisten
+
+exit command exit:			->			verlässt das debugen
